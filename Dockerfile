@@ -20,9 +20,9 @@
 #        not get expanded (probably because it is in a string literal).
 
 # Use jmeter-base as the foundation
-FROM santosharakere/jmeter-base
+FROM sarudra/jmeter-base
 
-MAINTAINER Santosh Marigowda santosharakere@gmail.com 
+MAINTAINER Srinivasa Arudra srinivas.arudra@gmail.com 
 
 # Create mount point for script, data and log files
 VOLUME ["/scripts"]
